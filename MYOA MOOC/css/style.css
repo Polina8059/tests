@@ -1,23 +1,50 @@
 *{
     font-famiiy: "Arial";
-    }
-    h1 {
+ }
+ h1 {
     color: #00838f;
-    }
-    h2 {
+ }
+ h2 {
     color: #00838f;
     font-size: smaller;
-    }
-    p {
+ }
+ p {
     background-color: #eeeeee;
-    }
-    button {
+ }
+ button {
     background-color: #00838f;
     font-size: larger;
     color: white;
     text-transform: uppercase;
-    }
+ }
+li {
+    list-style-type: none;
+}
 <!--Global-->
+body {
+    height: 100%;
+    width: 100%;
+}
+section {
+    position: fixed;
+    align: top;
+    height: 100vp;
+}
+.vl {
+   height: 100%;
+    border-left: 1px solid #000900;
+    position: absolute;
+    left: 25%;
+}
+#chat {
+    left: 400px;
+    width: clac (100%-400px);
+}
 <!--App bar-->
 <!--Channels list-->
+#channel-view {
+    background-color: white;
+    width: 399px;
+    height: 100vh;
+}
 <!--Messages-->
